@@ -21,6 +21,10 @@ DEVICE_PATH := device/xiaomi/hydrogen
 # Assert
 TARGET_OTA_ASSERT_DEVICE := hydrogen
 
+# Filesystem
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 26705099776 # 26705116160 - 16384
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_hydrogen_defconfig
 
