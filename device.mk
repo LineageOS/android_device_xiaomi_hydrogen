@@ -17,5 +17,9 @@
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/xiaomi/hydrogen/hydrogen-vendor.mk)
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Inherit from msm8956-common
 $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)

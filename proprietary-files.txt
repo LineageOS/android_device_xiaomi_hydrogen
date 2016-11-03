@@ -593,6 +593,7 @@ vendor/lib/libsmemlog.so
 -app/shutdownlistener/shutdownlistener.apk
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
+bin/mmbn-daemon
 bin/netmgrd
 bin/qmuxd
 bin/radish
