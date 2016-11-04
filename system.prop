@@ -1,1 +1,12 @@
-# Dummy for now
+# Audio
+audio.offload.pcm.16bit.enable=true
+audio.offload.pcm.24bit.enable=true
+audio.offload.video=true
+persist.audio.fluence.voicerec=false
+voice.voip.conc.disabled=false
+
+# Fingerprint
+ro.hardware.fingerprint=fpc
+
+# Radio
+persist.radio.ignore_dom_time=5
