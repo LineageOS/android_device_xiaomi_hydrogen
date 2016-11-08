@@ -27,6 +27,10 @@
 #
 #
 
+on early-boot
+    chown system radio /sys/bus/i2c/devices/i2c-4/4-0038/wakeup_mode
+    chmod 0664 /sys/bus/i2c/devices/i2c-4/4-0038/wakeup_mode
+
 service mmbn-daemon /system/bin/mmbn-daemon
     class main
     oneshot
