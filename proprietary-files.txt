@@ -71,6 +71,17 @@ vendor/lib/libbtnv.so
 
 # Camera
 bin/mm-qcamera-daemon
+etc/age_gender_bg
+etc/android_model_facea.dat
+etc/android_model_faceg.dat
+etc/crown_156_128.bin
+etc/face_goodly_208_180
+etc/face_ravishing_238_224
+etc/face_splendid_274_200
+etc/lf_facerank_model.bin
+etc/people_gender.dat
+etc/sdm_ys_32p_120_21_5_perturb50.bin
+etc/watermark_font_2300_3199.dat
 lib/hw/camera.msm8952.so
 lib/libimscamera_jni.so
 lib/libmm-qcamera.so
@@ -366,6 +377,10 @@ vendor/lib/libwqe.so
 lib64/hw/consumerir.msm8952.so
 lib/hw/consumerir.msm8952.so
 
+# Display calibration data
+etc/pp_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml
+etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml
+
 # DPM
 bin/dpmd
 etc/dpm/dpm.conf
@@ -550,6 +565,9 @@ vendor/lib64/libperipheral_client.so
 vendor/lib/libperipheral_client.so
 
 # Postprocessing
+bin/displayfeature
+etc/permissions/com.qti.snapdragon.sdk.display.xml
+framework/com.qti.snapdragon.sdk.display.jar
 vendor/bin/mm-pp-daemon
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libmm-als.so
@@ -563,12 +581,16 @@ bin/irsc_util
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
+etc/permissions/qti_permissions.xml
+-lib64/libqminvapi.so
+-lib/libqminvapi.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/liblqe.so
 vendor/lib64/libqcci_legacy.so
+vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
@@ -599,6 +621,8 @@ vendor/lib/libqmiservices.so
 vendor/lib/libsmemlog.so
 
 # Radio
+-app/embms/embms.apk
+-app/fastdormancy/fastdormancy.apk
 -app/shutdownlistener/shutdownlistener.apk
 -framework/qcnvitems.jar
 -framework/qcrilhook.jar
@@ -607,9 +631,14 @@ bin/netmgrd
 bin/qmuxd
 bin/radish
 bin/rmt_storage
+bin/tftp_server
+etc/permissions/embms.xml
 etc/permissions/qcnvitems.xml
 etc/permissions/qcrilhook.xml
+etc/modem/Diag.cfg
+framework/embmslibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+vendor/bin/qti
 vendor/lib64/libconfigdb.so
 vendor/lib64/libmdmdetect.so
 vendor/lib64/libnetmgr.so
@@ -658,4 +687,5 @@ vendor/lib64/libTimeService.so
 vendor/lib/libTimeService.so
 
 # WiFi
-lib64/libwcnss_qmi.so
+bin/cnss-daemon
+lib64/libwcnss_qmi.so|9c78b5757f4b3c081794f005d7d6f47211030070
