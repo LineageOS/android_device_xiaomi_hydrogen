@@ -520,6 +520,8 @@ bin/ipacm-diag
 vendor/lib64/hw/keystore.msm8952.so
 
 # Media
+lib64/libOmxVpp.so
+lib64/libvpplibrary.so
 lib/libOmxVpp.so
 lib/libvpplibrary.so
 vendor/lib/libI420colorconvert.so
@@ -551,6 +553,10 @@ etc/firmware/venus-v1.b03
 etc/firmware/venus-v1.b04
 etc/firmware/venus-v1.mbn
 etc/firmware/venus-v1.mdt
+
+# Network
+vendor/lib64/libconnctrl.so
+vendor/lib/libconnctrl.so
 
 # Perf
 bin/msm_irqbalance
