@@ -24,9 +24,6 @@ TARGET_OTA_ASSERT_DEVICE := hydrogen
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
-# CMHW
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
-
 # Filesystem
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 26705099776 # 26705116160 - 16384
@@ -41,7 +38,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Tap-to-Wake
-TARGET_TAP_TO_WAKE_NODE := "/sys/bus/i2c/devices/i2c-4/4-0038/wakeup_mode"
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # inherit from the proprietary version
 -include vendor/xiaomi/hydrogen/BoardConfigVendor.mk
