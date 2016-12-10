@@ -694,4 +694,4 @@ vendor/lib/libTimeService.so
 
 # WiFi
 bin/cnss-daemon
-lib64/libwcnss_qmi.so|9c78b5757f4b3c081794f005d7d6f47211030070
+bin/wcnss_service
