@@ -5,8 +5,15 @@ audio.offload.video=true
 persist.audio.fluence.voicerec=false
 voice.voip.conc.disabled=false
 
+# Display
+ro.qcom.ad=1
+ro.qcom.ad.calib.data=/system/etc/calib.cfg
+ro.qcom.ad.sensortype=2
+ro.qualcomm.cabl=0
+
+# Display feature support
+# bit0-ColorPrefer bit1-EyeCare bit2-AD bit3-CE bit4-CABC bit5-SRGB
+ro.sys.display.support=63
+
 # Fingerprint
 ro.hardware.fingerprint=fpc
-
-# Radio
-persist.radio.ignore_dom_time=5
