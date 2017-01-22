@@ -5,6 +5,9 @@ audio.offload.video=true
 persist.audio.fluence.voicerec=false
 voice.voip.conc.disabled=false
 
+# Camera
+media.camera.ts.monotonic=1
+
 # Display
 ro.qcom.ad=1
 ro.qcom.ad.calib.data=/system/etc/calib.cfg
