@@ -373,10 +373,6 @@ vendor/lib/libvendorconn.so
 vendor/lib/libwms.so
 vendor/lib/libwqe.so
 
-# Consumerir
-lib64/hw/consumerir.msm8952.so
-lib/hw/consumerir.msm8952.so
-
 # Display calibration data
 etc/pp_calib_data_auo_r61322_1080p_video_mode_dsi_panel.xml
 etc/pp_calib_data_tianma_r63350_1080p_video_mode_dsi_panel.xml
