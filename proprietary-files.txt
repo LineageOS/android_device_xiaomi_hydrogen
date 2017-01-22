@@ -552,10 +552,6 @@ etc/firmware/a530_pm4.fw
 # IPA
 bin/ipacm-diag
 
-# IRDA
-lib64/hw/consumerir.msm8952.so
-lib/hw/consumerir.msm8952.so
-
 # Keystore
 vendor/lib64/hw/keystore.msm8952.so
 
