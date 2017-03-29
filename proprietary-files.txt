@@ -102,13 +102,8 @@ etc/lf_facerank_model.bin
 etc/people_gender.dat
 etc/sdm_ys_32p_120_21_5_perturb50.bin
 etc/watermark_font_2300_3199.dat
-lib/hw/camera.msm8952.so
-lib/libmm-qcamera.so
-lib/libmmcamera_interface.so
-lib/libmmjpeg_interface.so
 lib/libmorpho_memory_allocator.so
 lib/libmorpho_panorama.so
-lib/libqomx_core.so
 vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libchromaflash.so
 vendor/lib/libFaceGrade.so
@@ -206,8 +201,8 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libRecoFace.so
 vendor/lib/libseemore.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
+-vendor/lib/libts_detected_face_hal.so
+-vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
 
