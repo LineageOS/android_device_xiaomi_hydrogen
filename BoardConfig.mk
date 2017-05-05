@@ -18,7 +18,8 @@
 
 DEVICE_PATH := device/xiaomi/hydrogen
 
-# Assert
+# Assertions
+TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := hydrogen
 
 # Bluetooth
