@@ -1,1 +1,1 @@
-require version-modem=MSM8976.LA.1.1.c1-00012-STD.PROD-1
+require version-modem=1.c1-00012-STD.PROD-1
