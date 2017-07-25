@@ -21,6 +21,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/xiaomi/hydrogen/hydrogen-vendor.mk)
 
+#AIM OTA
+PRODUCT_PACKAGES += \
+    AIMOTA \
+    libbypass
+    
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_extcodec.xml:system/etc/audio_platform_info_extcodec.xml \
