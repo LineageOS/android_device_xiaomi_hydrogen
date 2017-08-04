@@ -394,5 +394,13 @@ vendor/lib/libmdmdetect.so
 vendor/lib/libqcmaputils.so
 vendor/qcril.db
 
+# Time services
+-app/TimeService/TimeService.apk
+bin/time_daemon
+vendor/lib64/libTimeService.so
+-vendor/lib64/libtime_genoff.so
+vendor/lib/libTimeService.so
+-vendor/lib/libtime_genoff.so
+
 # WiFi
 bin/wcnss_service
