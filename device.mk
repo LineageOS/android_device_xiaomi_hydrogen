@@ -46,10 +46,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/uinput-fpc.kl:system/usr/keylayout/uinput-fpc.kl
 
-# Libshims
+# Shims
 PRODUCT_PACKAGES += \
     libshims_ims \
-    libshims_get_process_name
+    libshims_get_process_name \
+    rild_socket
 
 # Ramdisk
 PRODUCT_PACKAGES += \
